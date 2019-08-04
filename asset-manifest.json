@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/business-trip-advisor/static/css/main.9a9856c4.chunk.css",
+    "main.js": "/business-trip-advisor/static/js/main.40d37fc3.chunk.js",
+    "main.js.map": "/business-trip-advisor/static/js/main.40d37fc3.chunk.js.map",
+    "runtime~main.js": "/business-trip-advisor/static/js/runtime~main.b9812d8e.js",
+    "runtime~main.js.map": "/business-trip-advisor/static/js/runtime~main.b9812d8e.js.map",
+    "static/js/2.134c189c.chunk.js": "/business-trip-advisor/static/js/2.134c189c.chunk.js",
+    "static/js/2.134c189c.chunk.js.map": "/business-trip-advisor/static/js/2.134c189c.chunk.js.map",
+    "index.html": "/business-trip-advisor/index.html",
+    "precache-manifest.c0a619527465cadc11bce5f8483589f5.js": "/business-trip-advisor/precache-manifest.c0a619527465cadc11bce5f8483589f5.js",
+    "service-worker.js": "/business-trip-advisor/service-worker.js",
+    "static/css/main.9a9856c4.chunk.css.map": "/business-trip-advisor/static/css/main.9a9856c4.chunk.css.map",
+    "static/media/style.css": "/business-trip-advisor/static/media/register-cover.859c4622.jpg",
+    "static/media/hotel.jpg": "/business-trip-advisor/static/media/hotel.36cd2bf6.jpg"
+  }
+}
