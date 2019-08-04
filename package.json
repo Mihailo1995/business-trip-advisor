@@ -1,6 +1,7 @@
 {
   "name": "bta-react",
   "version": "0.1.0",
+  "homepage": "https://mihailo1995.github.io/business-trip-advisor",
   "private": true,
   "dependencies": {
     "gh-pages": "^2.1.0",
