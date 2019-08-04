@@ -1,0 +1,93 @@
+/*
+--- Width ---
+1em = 16px      (em is best for media queries)
+
+1800px +:                   fz: 75% (12px)      Big desktop
+1200 - 1800px (112.5em):    fz: 62.5% (10px)    Most of desktop/laptop screens
+1024 - 1366px (85.375em):   fz: 62.5% (10px)    iPad Pro (1024 x 1366)
+ 900 - 1200px (75em):       fz: 56.25% (9px)    Tablet landscape
+ 768 -  900px (56.25em):    fz: 56.25% (9px)    iPad (768 x 1024)
+ 600 -  900px (56.25em):    fz: 50% (8px)       Tablet portrait
+ 600 -  768px (48em);                           Tablet
+ 480 -  600px (37.5em):                         Phones
+ 360 -  480px (30em):
+ 320 -  360px (22.5em):                         Galaxy S5, Sony Xperia M4 Aqua
+   0 -  320px (20em):                           iphone SE
+*/
+
+/*-------------------------------- 1800px --------------------------------*/
+@media only screen and (max-width: 112.5em) {
+    /* main { background-color: red; } */
+    html { font-size: 62.5%; }
+}
+
+/*-------------------------------- 1200px --------------------------------*/
+@media only screen and (max-width: 75em) {
+    /* main { background-color: green; } */
+    html { font-size: 56.25%; }
+}
+
+/*-------------------------------- 1024 x 1366px --------------------------------*/
+@media only screen and (max-width: 64em) and (min-height: 85.375em) {
+    /* main { background-color: maroon; } */
+    html { font-size: 62.5%; }
+}
+
+/*-------------------------------- 900px --------------------------------*/
+@media only screen and (max-width: 56.25em) {
+    /* main { background-color: blue; } */
+    html { font-size: 50%; }
+}
+
+/*-------------------------------- 768px --------------------------------*/
+@media only screen and (max-width: 48em) {
+    /* main { background-color: gray; } */
+}
+
+/*-------------------------------- 768 x 900px --------------------------------*/
+@media only screen and (max-width: 48em) and (min-height: 56.25em) {
+    /* main { background-color: fuchsia; } */
+    html { font-size: 56.25%; }
+}
+
+/*-------------------------------- 600px --------------------------------*/
+@media only screen and (max-width: 37.5em) {
+    /* main { background-color: gold; } */
+}
+
+/*-------------------------------- 480px --------------------------------*/
+@media only screen and (max-width: 30em) {
+    /* main { background-color: pink; } */
+}
+
+/*-------------------------------- 360px --------------------------------*/
+@media only screen and (max-width: 22.5em) {
+    /* main { background-color: lime; } */
+}
+
+/*-------------------------------- 320px --------------------------------*/
+@media only screen and (max-width: 20em) {
+    /* main { background-color: cyan; } */
+}
+
+/* MIN-WIDTH */
+
+/*-------------------------------- 320px + --------------------------------*/
+@media only screen and (min-width: 20em) {
+    html { font-size: 50%; }
+}
+
+/*-------------------------------- 768px + --------------------------------*/
+@media only screen and (min-width: 48em) {
+}
+
+/*-------------------------------- 1200px + --------------------------------*/
+@media only screen and (min-width: 75em) {
+    html { font-size: 62.5%; }
+}
+
+/*-------------------------------- 1800px + --------------------------------*/
+@media only screen and (min-width: 112.5em) {
+    /* main { background-color: black; } */
+    html { font-size: 75%; }
+}
