@@ -1,5 +1,5 @@
 {
-  "name": "bta-react",
+  "name": "business-trip-advisor",
   "version": "0.1.0",
   "homepage": "https://mihailo1995.github.io/business-trip-advisor",
   "private": true,
@@ -34,6 +34,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.1.0"
+    "gh-pages": "^2.0.1"
   }
 }
